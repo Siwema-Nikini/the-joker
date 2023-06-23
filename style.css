@@ -4,7 +4,7 @@ html{
 
 body{
     margin: 0;
-    background: #45badd;
+    /* background: #45badd; */
     
 }
 
@@ -17,8 +17,8 @@ body{
     flex-direction: column;
     background: url('joker.gif');
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left center;
+    background-repeat:repeat;
+    background-position:left center;
 
 }
 
@@ -28,7 +28,7 @@ body{
     .container{
         background-size: cover;
         background-position: center center;
-
+        
     }
 
     button{
