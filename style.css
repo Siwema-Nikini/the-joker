@@ -4,7 +4,8 @@ html{
 
 body{
     margin: 0;
-    /* background: #45badd; */
+    background: #45badd; 
+    /* background: gray; */
     
 }
 
@@ -26,6 +27,8 @@ body{
 
 @media screen and (max-width: 1000px){
     .container{
+        max-width: 100%;
+        height: auto;
         background-size: cover;
         background-position: center center;
         
