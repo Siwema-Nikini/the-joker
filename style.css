@@ -25,10 +25,10 @@ body{
 
 /* Mediaquery-tablet or smaller */
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 480px){
     .container{
-        max-width: 100%;
-        height: auto;
+        /* max-width: 100%; */
+        /* height: auto; */
         background-size: cover;
         background-position: center center;
         
